@@ -44,7 +44,27 @@
 Пример команды:  
 `blastp -query my_histones/H2A.fasta -db proteomes/tuberculosis.faa  -out hblasts/tuberculosisH2A.blast -outfmt 7`
 
-(В [Google Colab](https://colab.research.google.com/drive/1BHbbg3IoSVPjDG3vO1MH5n7uapZGYDjq?usp=sharing)   в начале есть код для перебора всех команд для ввода в терминал.)
+- my_histones - папка с выбранными последовательностями каждого гистона
+- proteomes - папка с протеомами
+- hblasts - папка с результатами blastp для гистонов
+- blasts -  папка с результатами blastp для KDM6A
+
+(В [Google Colab](https://colab.research.google.com/drive/1BHbbg3IoSVPjDG3vO1MH5n7uapZGYDjq?usp=sharing) в начале есть код для перебора всех команд для ввода в терминал.)
+
+## Таблица Evalue
+
+Далее скачиваем все получившиеся после blastp файлы, загружаем в Google Colab и строим таблицы с evalue.  
+Код есть в [Google Colab](https://colab.research.google.com/drive/1BHbbg3IoSVPjDG3vO1MH5n7uapZGYDjq?usp=sharing).
+
+### Evalue 
+![table](https://github.com/XeniaMishina/h23_project/blob/main/tables/table.png)
+
+### Evalue (-log10)
+![table_log10](https://github.com/XeniaMishina/h23_project/blob/main/tables/table_log10.png)
+
+## Heatmap 
+![Heatmap](https://github.com/XeniaMishina/h23_project/blob/main/data/heatmap.png)
+
 
 
 
