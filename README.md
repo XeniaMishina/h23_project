@@ -35,4 +35,17 @@
 ### H4
 ![H4](https://github.com/XeniaMishina/h23_project/blob/main/histones/H4.png)
 
+Практически все последовательности всех гистонов являются копиями друг друга или очень похожи (в пределах одного гистона), поэтому можем взять по одной последовательности в каждом гистоне.
+
+## Blastp
+
+Делаем blastp для всех гистонов и белка KDM6A для 11 организмов, получаем evalue.
+
+Пример команды:  
+`blastp -query my_histones/H2A.fasta -db proteomes/tuberculosis.faa  -out hblasts/tuberculosisH2A.blast -outfmt 7`
+
+(В [Google Colab](https://colab.research.google.com/drive/1BHbbg3IoSVPjDG3vO1MH5n7uapZGYDjq?usp=sharing)   в начале есть код для перебора всех команд для ввода в терминал.)
+
+
+
 
