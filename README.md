@@ -67,8 +67,8 @@
 ### Учитывая, что если evalue < 1e-300, то считать его 1e-300
 ![Heatmap_300](https://github.com/XeniaMishina/h23_project/blob/main/data/heatmap_300.png)
 
-### Учитывая, что если evalue < 1e-100, то считать его 1e-100
-![Heatmap](https://github.com/XeniaMishina/h23_project/blob/main/data/heatmap.png)
+### Учитывая, что если evalue < 1e-150, то считать его 1e-150
+![Heatmap_150](https://github.com/XeniaMishina/h23_project/blob/main/data/heatmap_150.png)
 
 
 
