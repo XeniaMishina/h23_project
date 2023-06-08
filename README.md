@@ -71,7 +71,7 @@
 ![Heatmap_150](https://github.com/XeniaMishina/h23_project/blob/main/data/heatmap_150.png)
 
 ## Выводы
-Первые признаки проявления KDM6A есть уже в Yeast, однако совсем отчетливо KDM6A проявляется уже в Drosophila.
+Первые слабые признаки проявления KDM6A есть уже в Yeast, однако совсем отчетливо KDM6A проявляется уже в Drosophila.
 
 
 
